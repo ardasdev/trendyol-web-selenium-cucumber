@@ -1,0 +1,190 @@
+[
+  {
+    "key": "login_email_field",
+    "value": "login-email",
+    "type": "id"
+  },
+  {
+    "key": "submit_btn",
+    "value": "button[type='submit']",
+    "type": "css"
+  },
+  {
+    "key": "login_error_box",
+    "value": "error-box-wrapper",
+    "type": "id"
+  },
+  {
+    "key": "hesabim_text",
+    "value": "//p[text()='Hesabım']",
+    "type": "xpath"
+  },
+  {
+    "key": "add_cart_btn",
+    "value": "button[data-testid='add-to-cart-button']",
+    "type": "css"
+  },
+  {
+    "key": "product_text",
+    "value": "//p[contains(@class,'pb-item') and contains(text(),'Trendyol Plus Üyelik Paketi')]",
+    "type": "xpath"
+  },
+  {
+    "key": "add_favorite_btn",
+    "value": "button[data-testid='favorite-button']",
+    "type": "css"
+  },
+  {
+    "key": "fav_button_icon",
+    "value": "button[data-testid='favorite-button'] i",
+    "type": "css"
+  },
+  {
+    "key": "favorite_product_title",
+    "value": "//div[contains(@class, 'product-card')]//span[contains(text(),'Aylık Trendyol Plus')]",
+    "type": "xpath"
+  },
+  { "key": "siralama_dusuk_fiyat",
+    "value": "select-option-PRICE_BY_ASC",
+    "type": "id"
+  },
+  {
+    "key": "favorites_menu_link",
+    "value": "//p[text()='Favorilerim']/ancestor::div[contains(@class, 'link')]",
+    "type": "xpath"
+  },
+  {
+    "key": "follow_btn",
+    "value": "button.follow-and-win-button-follow-and-win-button",
+    "type": "css"
+  },
+  {
+    "key": "ilk_urun_kart",
+    "value": "[data-product-index='0']",
+    "type": "css"
+  },
+  {
+    "key": "ilk_urun_sepet_btn",
+    "value": "[data-product-index='0'] .add-to-basket-button",
+    "type": "css"
+  },
+  {
+    "key": "sepet_urun_sayisi",
+    "value": ".basket-count",
+    "type": "css"
+  },
+  {
+    "key": "sepete_git_link",
+    "value": ".basket-wrapper-link",
+    "type": "css"
+  },
+  {
+    "key": "sepet_baslik",
+    "value": ".basket-header-title",
+    "type": "css"
+  },
+  {
+    "key": "adet_arttir_btn",
+    "value": "[data-testid='quantity-button-increment']",
+    "type": "css"
+  },
+  {
+    "key": "adet_selector",
+    "value": "[data-testid='quantity-selector']",
+    "type": "css"
+  },
+  {
+    "key": "kategori_tab",
+    "value": ".category-tab-text",
+    "type": "css"
+  },
+  {
+    "key": "elektronik_tab",
+    "value": "a[href*='elektronik']",
+    "type": "css"
+  },
+  {
+    "key": "urun_adi",
+    "value": "[data-testid='product-title']",
+    "type": "css"
+  },
+  {
+    "key": "urun_fiyati",
+    "value": ".new-price",
+    "type": "css"
+  },
+
+  {
+    "key": "arama_kutusu",
+    "value": ".suggestion-placeholder",
+    "type": "css"
+  },
+  {
+    "key": "arama_input",
+    "value": ".search-bar-new-input-active-field",
+    "type": "css"
+  },
+  {
+    "key": "arama_btn",
+    "value": ".search-bar-new-input-active-search",
+    "type": "css"
+  },
+  {
+    "key": "onboarding_primary_btn",
+    "value": ".onboarding__default-renderer-primary-button",
+    "type": "css"
+  },
+  {
+    "key": "sonuc_basligi",
+    "value": "h1[data-testid='title']",
+    "type": "css"
+  },
+  {
+    "key": "siralama_select_box",
+    "value": ".select-box",
+    "type": "css"
+  },
+  {
+    "key": "fiyat_baslik",
+    "value": "//div[@data-testid='aggregation-header'][.//h3[text()='Fiyat']]",
+    "type": "xpath"
+  },
+  {
+    "key": "fiyat_min_input",
+    "value": "price-range-input-min",
+    "type": "id"
+  },
+  {
+    "key": "fiyat_max_input",
+    "value": "price-range-input-max",
+    "type": "id"
+  },
+  { "key": "email_devam_btn",
+    "value": "button[data-testid='email-check-button']",
+    "type": "css" },
+  {
+    "key": "fiyat_uygula_btn",
+    "value": ".price-range-button",
+    "type": "css"
+  },
+
+  { "key": "giris_yap_link",
+    "value": "//p[contains(text(),'Giriş Yap')]",
+    "type": "xpath" },
+
+  { "key": "hesabim_text",
+    "value": "//p[text()='Hesabım']",
+    "type": "xpath" },
+
+  { "key": "login_pw_field",
+    "value": "login-password",
+    "type": "id" },
+
+  { "key": "giris_btn",
+    "value": "button[data-testid='login-button']",
+    "type": "css" },
+
+  { "key": "hesap_olustur_text",
+    "value": "h1.page-title",
+    "type": "css" }
+]
